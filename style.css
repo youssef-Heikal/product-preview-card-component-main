@@ -1,0 +1,68 @@
+/*    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); } */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Montserrat ,Arial, Helvetica, sans-serif;
+}
+body{
+    background: #d1c8b8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}    
+.container{
+    width: 600px;
+    height: 400px;
+    margin: auto;
+    display: flex;
+}
+.container img {
+    width: 50%;
+}
+.container .about{
+    background: #fff;
+    padding-left: 30px;
+    position: relative;
+}
+.container .about h5{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 15px;
+    margin-top: 25px;
+    opacity: .5;
+}
+.container .about h2{
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+.container .about p{
+    margin-top: 20px;
+    opacity: .5;
+}
+.container .about h3{
+    margin-top: 30px;
+    font-size: 30px;
+    color: #26ad85;
+}
+.container .about h6{
+    position: absolute;
+    right: 125px;
+    bottom: 92px;
+    font-size: 13px;
+    text-decoration: line-through;
+    opacity: .5;
+
+}
+.container .about button{
+    width: 80%;
+    height: 40px;
+    background: #2a8f5c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
